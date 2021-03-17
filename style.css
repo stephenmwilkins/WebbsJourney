@@ -1,0 +1,83 @@
+
+
+html {
+  margin:0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding:0;
+  margin:0;
+  height: 100%;
+  color: #ccc;
+  background-color: #000;
+}
+
+a {
+  color: #ddd;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:visited {
+  color: #ddd;
+}
+
+.intro {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  width: 800px;
+  font-size: 14pt;
+}
+
+
+.credits {
+  padding-top: 50px;
+  margin: auto;
+  width: 800px;
+  font-size: 12pt;
+}
+
+.grid {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1120px;
+    height: 600px;
+    background-image: url("imgs/map/map.001.png");
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+    opacity: 100%;
+}
+
+
+.wall {
+}
+
+.sea-wall {
+}
+
+
+.pirate {
+    background-size:cover;
+}
+
+.tesla {
+    background-image: url('imgs/tesla_small.png');
+}
+
+.starlink {
+    background-image: url('imgs/starlink.png');
+}
+
+.pac-man {
+    background-size:cover;
+    background-image: url('imgs/webb.png');
+}
